@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button{
+  background-color: aqua;
+  font-size:  20px;
+}
+
+div{
+  width: 500px;
+  height: 700px;
+  background-color: white;
+
+}
+
+header{
+  font-size: 80px;
+  color: gray;
+  background-color: black;
+}

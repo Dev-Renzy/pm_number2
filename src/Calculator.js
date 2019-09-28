@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import { thisExpression } from '@babel/types';
 
 
 class Calculator extends Component{
@@ -64,10 +65,10 @@ class Calculator extends Component{
       return(
         <center>
         <div>
-        <header>Keenans Calculator!</header>
+        <header>Renzy Calculator!</header><br></br>
         <input type="number" placeholder="Input Number" onChange={(e) => this.first(e)}></input>
         <input type="number" placeholder="Input Number" onChange={(e) => this.second(e)}></input><br></br><br></br>
-        <button onClick={(e) => this.Addition(e)}>Addition</button><br></br><br></br>
+        <button onClick={(e) => this.Addition(e)} id = "button">Addition</button><br></br><br></br>
         <button onClick ={(e) => this.Subtraction(e)}>Subtraction</button><br></br><br></br>
         <button onClick ={(e) => this.Multiplication(e)}>Multiplication</button><br></br><br></br>
         <button onclick={(e) => this.Division}>Division</button><br></br><br></br>
